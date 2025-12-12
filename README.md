@@ -3,7 +3,7 @@ Overview
 
 This Power BI dashboard provides an end-to-end view of project performance, covering KPIs, timelines, regional insights, project phases, and detailed status tracking. It helps stakeholders monitor project progress, cost-benefit ratios, timelines, and completion metrics in an interactive format.
 
-Key Features
+Key Features:
 
 Project Summary Page
 Displays total projects, total cost, total benefits, and benefit–cost ratio.
@@ -30,7 +30,7 @@ Measures built for KPIs, timelines, and performance comparison.
 Custom Visual Design
 PowerPoint backgrounds used to enhance the visual appearance of the report.
 
-Tools and Technologies Used
+Tools and Technologies Used:
 
 Power BI Desktop
 Power Query
@@ -38,7 +38,7 @@ DAX
 Excel or CSV Dataset
 PowerPoint
 
-Dataset Overview
+Dataset Overview:
 
 Dataset includes fields such as project name, start date, end date, project cost, project benefits, region, department, project status, phase, and completion percentage.
 
@@ -49,7 +49,7 @@ Project Timeline or Gantt View
 Project Details Table
 (You can add screenshots here)
 
-DAX Measures Used
+DAX Measures Used:
 
 Date table using CALENDARAUTO
 Total projects
@@ -58,14 +58,14 @@ Benefit–cost ratio
 Completion percentage
 Projects by month or year
 
-Power Query Transformations
+Power Query Transformations:
 
 Removed duplicates and null values
 Corrected data types
 Created calculated columns for timelines
 Standardized status and phase fields
 
-How to Use
+How to Use:
 
 Download the pbix file from the repository
 Open it in Power BI Desktop
@@ -76,8 +76,3 @@ Insights Summary
 
 The dashboard helps identify delayed projects, high-performing areas, cost efficiency, and progress trends across departments, regions, and phases.
 
-Future Enhancements
-
-Add forecasting using advanced Power BI visuals
-Add drill-through pages for detailed project information
-Add overdue timeline alerts
